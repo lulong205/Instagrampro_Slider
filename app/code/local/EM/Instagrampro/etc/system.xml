@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <instagrampro translate="label" module="instagrampro">
+            <label>Instagram Pro</label>
+            <sort_order>100</sort_order>
+        </instagrampro>
+    </tabs>
+    <sections>
+        <instagrampro translate="label" module="instagrampro">
+            <label>Instagrampro Config</label>
+            <tab>instagrampro</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <instagrampro_settings translate="label" module="instagrampro">
+                    <label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+
+                    <fields>
+                        <instagrampro_title translate="label">
+                            <label>Title</label>
+                            <comment>This title display at front end as module name.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </instagrampro_title>
+                        <instagrampro_userid translate="label">
+                            <label>User Id</label>
+                            <comment>User Id of Instagram</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </instagrampro_userid>
+                        <instagrampro_token translate="label">
+                            <label>Access Token</label>
+                            <comment>Access Token of Instagram</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </instagrampro_token>
+                        <instagrampro_dimension translate="label">
+                            <label>Dimension</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>instagrampro/dimension</source_model>
+                        </instagrampro_dimension>
+                        <instagrampro_play_speed translate="label">
+                            <label>Auto Play Speed</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </instagrampro_play_speed>
+                        <instagrampro_item translate="label">
+                            <label>No. Item to show</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </instagrampro_item>
+                        <instagrampro_status translate="label">
+                            <label>Status</label>
+                            <comment>This needs to be enable to show slider at front end.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_Enabledisable</source_model>
+                        </instagrampro_status>
+                    </fields>
+                </instagrampro_settings>
+            </groups>
+        </instagrampro>
+    </sections>
+</config>

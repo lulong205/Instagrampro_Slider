@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <EM_Instagrampro>
+            <active>true</active>
+            <codePool>local</codePool>
+            <version>0.1.0</version>
+        </EM_Instagrampro>
+    </modules>
+</config>

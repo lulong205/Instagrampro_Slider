@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+      <modules>
+        <EM_InstagramWidget>
+          <version>0.1.0</version>
+        </EM_InstagramWidget>
+      </modules>
+      <global>
+        <blocks>
+          <InstagramWidget>
+            <class>EM_InstagramWidget_Block</class>
+          </InstagramWidget>
+        </blocks>
+        <helpers>
+            <InstagramWidget>
+                <class>EM_InstagramWidget_Helper</class>
+            </InstagramWidget>
+        </helpers>
+      </global>
+</config>

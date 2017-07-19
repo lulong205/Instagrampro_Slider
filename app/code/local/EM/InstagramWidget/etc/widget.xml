@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<widgets>
+      <InstagramWidget_Slider type="InstagramWidget/Slider">
+        <name>[EM] Instagrampro Slider</name>
+        <description type="desc">List of image on your Instagram</description>
+      </InstagramWidget_Slider>
+</widgets>
